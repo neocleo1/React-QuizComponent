@@ -11,7 +11,7 @@ class Quiz extends Component {
   render() {
     return (
       <div>
-        <QuizQuestion props={(quiz_question = quizData.quiz_questions[-1])} />
+        <QuizQuestion quiz_question={quizData.quiz_questions[-1]} />
       </div>
     )
   }
